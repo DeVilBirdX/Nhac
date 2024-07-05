@@ -4,20 +4,89 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Phát nhạc từ YouTube</title>
+    <style>
+        .video-container {
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .video-item {
+            margin: 10px;
+            text-align: center;
+        }
+        .video-item img {
+            width: 320px;
+            height: 180px;
+            cursor: pointer;
+        }
+        .video-item a {
+            text-decoration: none;
+            color: #000;
+        }
+    </style>
 </head>
 <body>
-    <h1>Danh sách nhạc 1</h1>
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLnBRFuSl5jZcQNC2Pc36IMvmgp1elEP-T" frameborder="0" allowfullscreen></iframe>
-
-    <h1>Danh sách nhạc 2</h1>
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLnBRFuSl5jZcHQgD53Hf29JM3xzTXxzxi" frameborder="0" allowfullscreen></iframe>
-
-    <h1>Danh sách nhạc 3</h1>
-    <p>Video 1: <a href="https://www.youtube.com/watch?v=en9_ffIoKIo" target="_blank">Xem trên YouTube</a></p>
-
-    <h1>Danh sách nhạc 4</h1>
-    <p>Video 1: <a href="https://www.youtube.com/watch?v=0zI0GR0wWSc" target="_blank">Xem trên YouTube</a></p>
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/en9_ffIoKIo" frameborder="0" allowfullscreen></iframe>
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/0zI0GR0wWSc" frameborder="0" allowfullscreen></iframe>
+    <h1>Danh sách nhạc từ YouTube</h1>
+    <div class="video-container">
+        <div class="video-item">
+            <a href="https://www.youtube.com/playlist?list=PLnBRFuSl5jZcQNC2Pc36IMvmgp1elEP-T" target="_blank">
+                <img src="https://img.youtube.com/vi/PLnBRFuSl5jZcQNC2Pc36IMvmgp1elEP-T/hqdefault.jpg" alt="Video 1">
+                <p>Danh sách nhạc 1</p>
+            </a>
+        </div>
+        <div class="video-item">
+            <a href="https://www.youtube.com/playlist?list=PLnBRFuSl5jZcHQgD53Hf29JM3xzTXxzxi" target="_blank">
+                <img src="https://img.youtube.com/vi/PLnBRFuSl5jZcHQgD53Hf29JM3xzTXxzxi/hqdefault.jpg" alt="Video 2">
+                <p>Danh sách nhạc 2</p>
+            </a>
+        </div>
+        <div class="video-item">
+            <a href="https://www.youtube.com/watch?v=en9_ffIoKIo" target="_blank">
+                <img src="https://img.youtube.com/vi/en9_ffIoKIo/hqdefault.jpg" alt="Video 3">
+                <p>Video 1</p>
+            </a>
+        </div>
+        <div class="video-item">
+            <a href="https://www.youtube.com/watch?v=0zI0GR0wWSc" target="_blank">
+                <img src="https://img.youtube.com/vi/0zI0GR0wWSc/hqdefault.jpg" alt="Video 4">
+                <p>Video 2</p>
+            </a>
+        </div>
+        <div class="video-item">
+            <a href="https://www.youtube.com/watch?v=bY2B_oC9g-k" target="_blank">
+                <img src="https://img.youtube.com/vi/bY2B_oC9g-k/hqdefault.jpg" alt="Video 5">
+                <p>Video 5</p>
+            </a>
+        </div>
+        <div class="video-item">
+            <a href="https://www.youtube.com/playlist?list=PL-nwrkdCrXe7r2WjGkDv9IyIJlrgKkQMA" target="_blank">
+                <img src="https://img.youtube.com/vi/PL-nwrkdCrXe7r2WjGkDv9IyIJlrgKkQMA/hqdefault.jpg" alt="Video 6">
+                <p>Danh sách nhạc 6</p>
+            </a>
+        </div>
+        <div class="video-item">
+            <a href="https://www.youtube.com/playlist?list=PLbsE1LKuWw-6VQft_8ZYz7YzIhHOH1oKY" target="_blank">
+                <img src="https://img.youtube.com/vi/PLbsE1LKuWw-6VQft_8ZYz7YzIhHOH1oKY/hqdefault.jpg" alt="Video 7">
+                <p>Danh sách nhạc 7</p>
+            </a>
+        </div>
+        <div class="video-item">
+            <a href="https://www.youtube.com/watch?v=C-DjpWVwZpw" target="_blank">
+                <img src="https://img.youtube.com/vi/C-DjpWVwZpw/hqdefault.jpg" alt="Video 8">
+                <p>Video 8</p>
+            </a>
+        </div>
+        <div class="video-item">
+            <a href="https://www.youtube.com/watch?v=BDvv8xr3Tdg" target="_blank">
+                <img src="https://img.youtube.com/vi/BDvv8xr3Tdg/hqdefault.jpg" alt="Video 9">
+                <p>Video 9</p>
+            </a>
+        </div>
+        <div class="video-item">
+            <a href="https://www.youtube.com/watch?v=2UZV_jYP9a4" target="_blank">
+                <img src="https://img.youtube.com/vi/2UZV_jYP9a4/hqdefault.jpg" alt="Video 10">
+                <p>Video 10</p>
+            </a>
+        </div>
+    </div>
 </body>
 </html>
